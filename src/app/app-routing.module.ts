@@ -5,7 +5,7 @@ import { PantallaExamenComponent } from './pages/pantalla-examen/pantalla-examen
 
 
 const routes: Routes = [
-    { path: '', redirectTo: 'inicio', pathMatch: 'full'},
+    { path: '', redirectTo: 'Pantalla-Examen', pathMatch: 'full'},
     { path: 'inicio', component: InicioComponent },
     { path: 'Pantalla-Examen', component: PantallaExamenComponent }
 ];

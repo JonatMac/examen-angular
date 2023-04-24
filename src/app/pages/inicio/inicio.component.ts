@@ -15,5 +15,4 @@ export class InicioComponent implements OnInit{
   ngOnInit(): void {
     console.log('PRUEBA INICIO');
   }
-
 }

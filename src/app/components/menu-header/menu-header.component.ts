@@ -15,11 +15,11 @@ export class MenuHeaderComponent implements OnInit {
   inicioMenu(){
     this.listMenu = [
       {
-        label: 'Inicio',
+        label: 'INICIO',
         routerLink: '/inicio'
       },
       {
-        label: 'Examen',
+        label: 'EXAMEN',
         routerLink: '/Pantalla-Examen'
       }
     ];
